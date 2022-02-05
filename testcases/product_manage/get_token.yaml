@@ -1,0 +1,20 @@
+-
+  name: "获取接口统一鉴权码token接口"
+  request:
+    url: https://api.weixin.qq.com/cgi-bin/token
+    method: "get"
+    params: {
+      "grant_type":"client_credential",
+      "appid":"wxf4605e5c389e6e9a",
+      "secret":'1760f9aafb7043a99e328912d98556f6'
+    }
+  extract:
+    access_token: '{"access_token":"(.*?)"'
+    expires_in: $.expires_in
+  validate:
+    - equals: {status_code: 200}
+    - equals: {expires_in: 71200}
+    - contains: "access_token"
+
+
+

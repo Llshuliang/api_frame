@@ -1,0 +1,9 @@
+-
+  name: "文件上传"
+  request:
+    url: https://api.weixin.qq.com/cgi-bin/media/uploadimg?access_token=${yaml_extract_read(access_token)}
+    method: "post"
+    files: {
+      "media": "D:\\test.png"
+    }
+  validate: none

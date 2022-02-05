@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "WINDOWS-I1939P6",
+    "children" : [ {
+      "name" : "14176-MainThread",
+      "children" : [ {
+        "name" : "登陆成功",
+        "uid" : "cd444106fc0deec9",
+        "parentUid" : "253e43d9301298b09abdb5df83980810",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641374676247,
+          "stop" : 1641374676247,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登陆成功",
+        "uid" : "1591b22333001cae",
+        "parentUid" : "253e43d9301298b09abdb5df83980810",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641374676214,
+          "stop" : 1641374676214,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "253e43d9301298b09abdb5df83980810"
+    } ],
+    "uid" : "d1e6af093a049a855435d6119a2f0a84"
+  } ]
+}

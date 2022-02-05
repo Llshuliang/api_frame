@@ -1,0 +1,51 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "接口自动化测试项目",
+    "children" : [ {
+      "name" : "用户管理模块",
+      "children" : [ {
+        "name" : "码尚教育1",
+        "children" : [ {
+          "name" : "登陆成功",
+          "uid" : "1591b22333001cae",
+          "parentUid" : "07ff307a78677ae976b77909634fd837",
+          "status" : "passed",
+          "time" : {
+            "start" : 1641374676214,
+            "stop" : 1641374676214,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "07ff307a78677ae976b77909634fd837"
+      } ],
+      "uid" : "43884a5da9d1d7fbf9f581572c862054"
+    }, {
+      "name" : "用户登录模块",
+      "children" : [ {
+        "name" : "码尚教育2",
+        "children" : [ {
+          "name" : "登陆成功",
+          "uid" : "cd444106fc0deec9",
+          "parentUid" : "3a42f50b7ff9cb19e5a9d0e34dd7f88a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1641374676247,
+            "stop" : 1641374676247,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3a42f50b7ff9cb19e5a9d0e34dd7f88a"
+      } ],
+      "uid" : "8bc602897bf5f3a8c9ff17e4e8086ecd"
+    } ],
+    "uid" : "95065ae0852bca57046c470c0f03fe2c"
+  } ]
+}

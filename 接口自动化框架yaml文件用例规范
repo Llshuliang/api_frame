@@ -1,0 +1,10 @@
+1、最外层必须包括name、request、validate；
+2、request中必须包括method、url
+3、get方式，params方式传参；
+   json方式，
+      data方式传参：纯字典或者键值对
+      json方式传参：嵌套字典
+4、接口关联：
+   多种提取方式
+   1、正则表达式提取
+   2、jsonpath提取

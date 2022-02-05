@@ -1,0 +1,7 @@
+-
+  name: "查询标签"
+  request:
+    url: https://api.weixin.qq.com/cgi-bin/tags/get?access_token=${yaml_extract_read(access_token)}
+    method: get
+    params: none
+  validate: none

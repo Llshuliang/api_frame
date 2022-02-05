@@ -1,0 +1,21 @@
+[ {
+  "uid" : "1591b22333001cae",
+  "name" : "登陆成功",
+  "time" : {
+    "start" : 1641374676214,
+    "stop" : 1641374676214,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "cd444106fc0deec9",
+  "name" : "登陆成功",
+  "time" : {
+    "start" : 1641374676247,
+    "stop" : 1641374676247,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,9 @@
+-
+  name: "创建标签接口"
+  request:
+    url: https://api.weixin.qq.com/cgi-bin/tags/create?access_token=${yaml_extract_read(access_token)}
+    method: "post"
+    json: {
+      "tag":{"name": '加油${random_sz(1000,9999)}'}
+    }
+  validate: none
